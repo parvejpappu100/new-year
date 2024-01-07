@@ -1,0 +1,13 @@
+.container{
+    background-image: url('../images/Banner\ Image.png');
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.container .banner-title {
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+}
