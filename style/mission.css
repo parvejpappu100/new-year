@@ -1,3 +1,6 @@
+body{
+    margin: 0px;
+}
 /* header style */
 .container {
     position: relative;
@@ -290,14 +293,16 @@
     margin-top: 0px;
     margin-bottom: 48px;
 }
-.box-resize{
+
+.box-resize {
     padding: 20px 30px;
     border-radius: 20px;
     border: 0px;
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
 }
-.btn-subscribe{
+
+.btn-subscribe {
     background: #F00;
     border-radius: 0px 50px 50px 0px;
     padding: 20px 30px;
@@ -305,4 +310,40 @@
     color: white;
     margin-left: -4px;
     font-weight: 700;
+}
+
+/* footer section style */
+footer{
+    background: #070211;
+    padding: 120px 0px;
+    margin-top: 120px;
+    color:#FFF;
+    font-size: 24px;
+}
+.footer-part{
+    max-width: 1320px;
+    margin: 0px auto;
+}
+.address{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.social-icon{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+.copyrights{
+    display: flex;
+    justify-content: space-between;
 }
