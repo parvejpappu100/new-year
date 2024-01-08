@@ -1,13 +1,49 @@
-.container{
-    background-image: url('../images/Banner\ Image.png');
+.container {
+    position: relative;
     max-width: 1320px;
     margin: 0 auto;
+    opacity: 110%;
 }
 
-.container .banner-title {
-    color: #FFF;
+.banner-title {
+    position: absolute;
+    top: 20%;
+    right: 30%;
+    color: white;
+    /* background-color: black;
+    opacity: 30%; */
+}
+
+.banner-first {
     text-align: center;
-    font-family: Merriweather;
     font-size: 32px;
-    font-weight: 400;
+    margin-bottom: 0px;
+}
+
+.banner-second {
+    margin-top: 0px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900px;
+}
+
+.discount {
+    text-align: center;
+    color: #F00;
+}
+
+.percent {
+    margin-bottom: 0;
+    font-size: 88px;
+}
+
+.deals {
+    margin-top: 48;
+    margin-bottom: 0;
+}
+
+.categories {
+    color: #070211;
+    font-size: 48px;
+    margin-top: 0;
 }
