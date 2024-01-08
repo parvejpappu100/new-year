@@ -1,3 +1,4 @@
+/* header style */
 .container {
     position: relative;
     max-width: 1320px;
@@ -27,6 +28,7 @@
     font-weight: 900px;
 }
 
+/* main section style */
 .discount {
     text-align: center;
     color: #F00;
@@ -46,4 +48,74 @@
     color: #070211;
     font-size: 48px;
     margin-top: 0;
+}
+
+.party {
+    max-width: 1320px;
+    margin: 0 auto;
+    margin-top: 120px;
+    position: relative;
+}
+
+.year {
+    position: absolute;
+    right: 120px;
+    top: 65px;
+}
+
+.party-text {
+    color: #FFF;
+    font-size: 64px;
+    position: absolute;
+    top: 40px;
+    left: 126px;
+    right: 552px;
+
+}
+
+.midnight {
+    margin-bottom: 0px;
+}
+
+.party-text p {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+/* button style */
+.join-button {
+    margin-top: 0;
+    font-size: 20px;
+    border-radius: 06px;
+    text-transform: uppercase;
+}
+
+.information {
+    max-width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    padding: 100px 0px;
+    margin: 120px;
+    border-radius: 10px;
+}
+
+.info {
+    font-size: 32px;
+    margin: 0px;
+}
+
+.label {
+    color: #F00;
+}
+
+.btn-primary {
+    border-radius: 8px;
+    background: #F00;
+    margin-top: 48px;
+    padding: 16px 32px;
+    color: white;
+    border: 1px solid  #F00;
+    font-size: 20px;
 }
